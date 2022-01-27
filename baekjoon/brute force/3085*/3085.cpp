@@ -60,7 +60,7 @@ int count(char arr[50][50], int N)
     int max = 0;
     for (int m = 0; m < N; m++)
     {
-        char s = arr[m][0];
+        char s = arr[m][0]; //s를 초기로 잡고, 바뀔 때 갱신하며 cnt로 연속된 개수를 센다
         int cnt = 0;
         for (int n = 0; n < N; n++)
         {
