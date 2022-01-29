@@ -65,8 +65,8 @@ int main()
 }
 ```
 
+```
 출력 결과
-
 ** node1 visited! **
 push 1
 ** node2 visited! **
@@ -94,6 +94,7 @@ pop9
 pop5
 pop2
 pop1
+```
 
 ### 재귀 이용
 
@@ -122,6 +123,7 @@ int main(void)
 }
 ```
 
+```
 출력 결과
 cur node : 1
 cur node : 2
@@ -132,5 +134,6 @@ cur node : 4
 cur node : 8
 cur node : 5
 cur node : 9
+```
 
 코드 출처: https://choiiis.github.io/algorithm/practice-dfs/
