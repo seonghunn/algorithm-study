@@ -54,23 +54,81 @@ void dfs(int idx, int cur)
 
 /*
 1 2 3 4
-check 1 2 3 4
-return idx 4
-check 34
-return idx 4
-check 23 24
-return idx 4
-check 234
-retrun idx 4
-check 12 13 14
-return idx 4
-*(cur+arr 수행)
-check 134
-return idx 4
+idx:0
+cur:0
+cur test:0+1
+idx:1
+cur:0
+cur test:0+2
+idx:2
+cur:0
+cur test:0+3
+idx:3
+cur:0
+cur test:0+4
+idx:4 return
 *
-check 123 124
-return idx 4
+idx:4 return
 *
-check 1234
-
+idx:3
+cur:3
+cur test:3+4
+idx:4 return
+*
+idx:4 return
+*
+idx:2
+cur:2
+cur test:2+3
+idx:3
+cur:2
+cur test:2+4
+idx:4 return
+*
+idx:4 return
+*
+idx:3
+cur:5
+cur test:5+4
+idx:4 return
+*
+idx:4 return
+*
+idx:1
+cur:1
+cur test:1+2
+idx:2
+cur:1
+cur test:1+3
+idx:3
+cur:1
+cur test:1+4
+idx:4 return
+*
+idx:4 return
+*
+idx:3
+cur:4
+cur test:4+4
+idx:4 return
+*
+idx:4 return
+*
+idx:2
+cur:3
+cur test:3+3
+idx:3
+cur:3
+cur test:3+4
+idx:4 return
+*
+idx:4 return
+*
+idx:3
+cur:6
+cur test:6+4
+idx:4 return
+*
+idx:4 return
+0
 */
