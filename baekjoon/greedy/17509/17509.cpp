@@ -15,12 +15,12 @@ int main()
     int Vsum = 0;
     for (int i = 0; i < 11; i++)
     {
-        sum += (11 - i) * T[i];
+        sum += (11 - i) * T[i]; //푼 시점에서까지 걸린 시간을 더하므로, 짧게 걸리는 문제를 먼저 풀어야함
     }
 
     for (int i = 0; i < 11; i++)
     {
-        Vsum += 20 * V[i];
+        Vsum += 20 * V[i]; //V는 시간에 관계없이 20을 곱해서 더해짐
     }
 
     cout << sum + Vsum << endl;
