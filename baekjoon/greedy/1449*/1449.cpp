@@ -23,7 +23,7 @@ int main()
     {
         if (v[i + 1] - v[i] <= tmp)
         {
-            tmp -= v[i + 1] - v[i];
+            tmp -= v[i + 1] - v[i]; //테이프 사용
         }
         else
         {
