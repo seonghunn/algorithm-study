@@ -20,7 +20,7 @@ int main()
 
     for (int i = 0; i < 11; i++)
     {
-        Vsum += 20 * V[i]; //V는 시간에 관계없이 20을 곱해서 더해짐
+        Vsum += 20 * V[i]; //V는 시간에 관계없이 20을 곱해서 더해진다
     }
 
     cout << sum + Vsum << endl;
