@@ -21,7 +21,7 @@ int main()
     for (int i = 1; i < N; i++)
     {
         dp[i] = max(dp[i - 1] + arr[i], arr[i]);
-        if (maximum < dp[i])
+        if (maximum < dp[i]) //dp 배열(연속합과 개별 원소 중 큰 것이 입력된 배열)에서 가장 큰 값을 갱신한다.
             maximum = dp[i];
     }
 
