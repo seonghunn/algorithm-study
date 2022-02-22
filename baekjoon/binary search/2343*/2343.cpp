@@ -40,6 +40,7 @@ int main()
                 tmpsum += arr[i];
             }
         }
+        //똑같이 tmpcnt가 n이어도, 최솟값을 찾기 위해서는 왼쪽 영역을 탐색해야 하므로 tmpcnt<=n
         if (tmpcnt <= n)
             right = mid - 1;
         else
