@@ -9,6 +9,8 @@ typedef long long ll;
 int n, c;
 ll arr[MAX];
 
+//모든 거리를 탐색하면 O(N^2)이지만, 이분탐색을 사용하여 O(NlogN)으로 풀 수 있음
+//거리라는 정확한 답을 찾기 위해, 유효한 범위 내에서의 이분탐색을 반복하는 아이디어
 int main()
 {
     ios_base::sync_with_stdio(false);
