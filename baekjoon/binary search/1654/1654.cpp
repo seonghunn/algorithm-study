@@ -30,10 +30,10 @@ int main()
             tmpcnt += arr[i] / mid;
 
         //똑같이 tmpcnt가 n이어도 그 중 최댓값을 찾아야 하므로, n과 같거나 크면 무조건 오른쪽 탐색
-        if (tmpcnt < n)
-            right = mid - 1;
-        else
+        if (tmpcnt >= n)
             left = mid + 1;
+        else
+            right = mid - 1;
     }
 
     std::cout << right;
